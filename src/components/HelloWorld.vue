@@ -34,7 +34,7 @@
       numOrStr(a: number | string) {
         // a.toFixed(1); // toFixed 메소드는 number 전용 메소드이기 때문에 타입 가드를 해주지않으면 에러
         // 타입 가드
-        if (typeof a === 'number') {  // 아규먼트 a가 number or string 될 수 있으니 typeof 키워드를 이용해 조건 분기를 해주면 에러응 없앨 수 있다
+        if (typeof a === 'number') {  // 아규먼트 a가 number or string 될 수 있으니 typeof 키워드를 이용해 조건 분기를 해주면 에러를 없앨 수 있다
           a.toFixed(1);
         }
       }
